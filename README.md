@@ -31,6 +31,14 @@
 - 危険なprefix / ext指定の検証
 - pytestによるテスト
 
+### Sales Report Generator
+売上CSVを読み込み、商品別・日付別の集計結果をCSVとExcelで出力するPython CLIツールです。
+
+- Python / pandas / openpyxl / pytest
+- 商品別・日付別集計
+- 入力CSVのバリデーション
+- CSV / Excelレポート出力
+
 ## Development Style
 
 AIを使って実装を補助しつつ、仕様整理、レビュー、安全性改善、テスト、GitHub公開までを自分で確認しながら進めています。
