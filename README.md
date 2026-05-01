@@ -39,6 +39,16 @@
 - 入力CSVのバリデーション
 - CSV / Excelレポート出力
 
+### SRT to VTT Converter
+SRT字幕ファイルをWebVTT形式へ一括変換するPython CLIツールです。
+
+- Python標準ライブラリ
+- dry-run / apply対応
+- 入力SRTを上書きしない安全設計
+- 既存VTTの上書き防止
+- 不正なタイムコード行の検出
+- pytestによるテスト
+
 ## Development Style
 
 AIを使って実装を補助しつつ、仕様整理、レビュー、安全性改善、テスト、GitHub公開までを自分で確認しながら進めています。
